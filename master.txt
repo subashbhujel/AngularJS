@@ -1,3 +1,0 @@
-"hello" 
-Second line from C1 branch
-line from c2 branch
