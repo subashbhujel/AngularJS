@@ -1,4 +1,4 @@
-RepoTest
+AngularJS
 ========
 
-Test Repo tp play around with GIT commands. 
+Learning AngularJS directives, functions, filters, etc.
