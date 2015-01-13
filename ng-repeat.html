@@ -23,10 +23,12 @@
 
         I have {{friends.length}} friends. They are:
 
-        <input type="text" ng-model="q" placeholder="filter friends..." />
+        <input type="text" ng-model="query" placeholder="filter friends..." />
 
         <ul>
-            <li ng-repeat="friend in friends | filter:q">{{friend.name | uppercase}} - {{friend.age}} --{{friend.gender | lowercase}}</li>
+            <li ng-repeat="friend in friends | filter:query">
+                {{friend.name | uppercase}} - {{friend.age}} --{{friend.gender | lowercase}}
+            </li>
         </ul>
     </div>
     <script src="js/angular.min.js"></script>
